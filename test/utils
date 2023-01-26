@@ -18,7 +18,7 @@ setUp()
   OUTPUT_DIR="$(mktemp -d ${SHUNIT_TMPDIR}/output.XXXX)"
   STD_OUT="${OUTPUT_DIR}/stdout"
   STD_ERR="${OUTPUT_DIR}/stderr"
-  BUILD_DIR="${OUTPUT_DIR}/build"
+  BUILD_DIR="${OUTPUT_DIR}/build/client"
   CACHE_DIR="${OUTPUT_DIR}/cache"
   mkdir -p ${OUTPUT_DIR}
   mkdir -p ${BUILD_DIR}

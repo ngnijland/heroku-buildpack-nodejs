@@ -50,4 +50,3 @@ if [[ "$2" == "test" ]]; then
 else
   compile "$fixture"
 fi
-
